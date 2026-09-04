@@ -23,6 +23,10 @@ github actions is used to validate the required project files whenever changes a
 
 ## database verification
 
+## database entities
+
+the database contains user, category, event, eventcategory, enrolment, result and route tables. primary keys and foreign keys are used to maintain relationships between the entities.
+
 ## api modules
 
 the planned api is organised into authentication, user profiles, events, categories, enrolments, results and routes. access is controlled using participant and organiser roles where required.
