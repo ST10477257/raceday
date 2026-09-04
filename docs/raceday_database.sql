@@ -1,7 +1,7 @@
 if db_id('raceday') is null
 create database raceday;
 go
-use raceday_test;
+use RaceDay;
 go
 
 
