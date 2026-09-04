@@ -41,4 +41,8 @@ the database uses primary keys, foreign keys, unique constraints, check constrai
 
 realistic sample records are included in the database script for users, categories, events, event categories, enrolments, results and routes. this data is used to test the database relationships and queries.
 
+## ci validation
+
+github actions automatically validates that the required database script is present in the repository when changes are pushed to the main branch or submitted through a pull request.
+
 
