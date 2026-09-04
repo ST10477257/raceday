@@ -143,7 +143,7 @@ CONSTRAINT UQ_Enrolment
 UNIQUE (event_category_id, participant_id),
 
 CONSTRAINT CK_Enrolment_Status
-CHECK (enrolment_status IN ('Pending', 'Confirmed', 'Registered'))
+CHECK (enrolment_status IN ('Registered', 'Confirmed', 'Cancelled'))
 );
 GO
 
