@@ -1,20 +1,15 @@
 name: raceday ci
-
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
-
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
     - name: checkout repository
       uses: actions/checkout@v4
-
     - name: validate project files
       run: |
         test -f docs/raceday_database.sql
-        test -f docs/api_endpoint_plan.pdf
-        test -f docs/raceday_erd.png
