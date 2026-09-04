@@ -37,3 +37,8 @@ the database was tested using sql server management studio. primary keys, foreig
 
 the database uses primary keys, foreign keys, unique constraints, check constraints and default constraints to maintain data integrity and consistency.
 
+## test data
+
+realistic sample records are included in the database script for users, categories, events, event categories, enrolments, results and routes. this data is used to test the database relationships and queries.
+
+
