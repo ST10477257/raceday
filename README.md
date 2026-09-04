@@ -45,4 +45,8 @@ realistic sample records are included in the database script for users, categori
 
 github actions automatically validates that the required database script is present in the repository when changes are pushed to the main branch or submitted through a pull request.
 
+## project status
+
+the planning documentation, erd, api endpoint plan, sql database script and ci workflow have been prepared for the raceday system. the project documentation is structured to support the implementation of the system.
+
 
