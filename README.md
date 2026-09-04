@@ -20,3 +20,7 @@ the api endpoint plan defines the http methods, routes, roles, request bodies an
 ## ci/cd
 
 github actions is used to validate the required project files whenever changes are pushed to the main branch.
+
+## database verification
+
+the database was tested using sql server management studio. primary keys, foreign keys, check constraints, default constraints and table relationships were verified. test data was also inserted to confirm that the tables and relationships work correctly.
