@@ -16,6 +16,6 @@ jobs:
     - name: validate project files
       run: |
         test -f README.md
-        test -f docs/raceday_database.sql
+        test -f docs/RaceDay_Database.sql
         test -f docs/api_endpoint_plan.pdf
         test -f docs/raceday_erd.png
