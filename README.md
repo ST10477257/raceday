@@ -32,3 +32,8 @@ the database contains user, category, event, eventcategory, enrolment, result an
 the planned api is organised into authentication, user profiles, events, categories, enrolments, results and routes. access is controlled using participant and organiser roles where required.
 
 the database was tested using sql server management studio. primary keys, foreign keys, check constraints, default constraints and table relationships were verified. test data was also inserted to confirm that the tables and relationships work correctly.
+
+## database constraints
+
+the database uses primary keys, foreign keys, unique constraints, check constraints and default constraints to maintain data integrity and consistency.
+
